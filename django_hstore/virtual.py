@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import six
-from django.utils.functional import curry
+from funtools import partial as curry
 from django import VERSION as DJANGO_VERSION
 
 from .dict import HStoreDict
